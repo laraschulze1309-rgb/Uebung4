@@ -11,7 +11,7 @@ public class H3_main {
         fahrenheitDouble = (celsiusDouble * 9 / 5) + 32;
 
         System.out.println("fahrenheitFloat: " + fahrenheitFloat);
-        System.out.println("fahrenheitDouble: " + fahrenheitDouble);
+        System.out.println("fahrenheitDouble: " + fahrenheitDouble);  // Mehr Nachkommastellen = Genauer 
 }
 
 }

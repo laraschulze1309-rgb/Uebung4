@@ -7,7 +7,7 @@ public class H2_main {
         boolean a = false; 
         boolean b = false;
         boolean c = false;
-        int input = 1;
+        int input = 10;
 
         switch (input) {
             case 0:
@@ -31,7 +31,7 @@ public class H2_main {
                 c = true;
                 break;
         }
-
+        
         if (x == true && y == true) {
             a = true;
         }
