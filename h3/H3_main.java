@@ -2,9 +2,9 @@ package h3;
 
 public class H3_main {
     public static void main(String[] args) {
-        float celsiusFloat = 24.66412334f;
+        float celsiusFloat = 24.6646489f;
         float fahrenheitFloat = 1f;
-        double celsiusDouble = 24.66412334;
+        double celsiusDouble = 24.6646489;
         double fahrenheitDouble = 1;
 
         fahrenheitFloat = (celsiusFloat * 9 / 5) + 32;
@@ -12,6 +12,9 @@ public class H3_main {
 
         System.out.println("fahrenheitFloat: " + fahrenheitFloat);
         System.out.println("fahrenheitDouble: " + fahrenheitDouble);  // Mehr Nachkommastellen = Genauer 
+                                                                        // weniger Nachkommastellen = Rundungsfehler z.B.:
+                                                                        // fahrenheitFloat: 76.3963
+                                                                        // fahrenheitDouble: 76.39636802
 }
 
 }
